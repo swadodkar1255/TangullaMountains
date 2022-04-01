@@ -1,0 +1,307 @@
+@charset "UTF-8";
+/* CSS Document */
+header{
+	postion: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 30px;
+	position: fixed;
+}
+
+logo{
+	color: #fff;
+	font-weight:700;
+	text-decoration:none;
+	font-size:2em;
+	text-trasform:uppercase;
+	letter-spacing: 2px;		
+}
+
+header ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:#37508e;
+	font-size: 20px;
+	font-family: mencken-std, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+header ul li{
+	list-style: none;
+	margin-left: 70px;
+	padding-right: 30px;
+	font-size: 20px;
+	font-family: mencken-std, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	
+}
+
+nav a:link {
+	color: beige;
+	text-decoration: none;
+	background-color: #5C0ACE;
+	padding: 10px;
+	padding-right: 30px;
+}
+
+nav a:visited {
+	text-decoration: none;
+	color: #F17DA6;
+}
+nav a:hover {
+    text-decoration: none;
+    color: beige;
+	background-color: #37508e;
+	padding: 10px;
+	border-radius: 15px;
+}
+nav a:active {
+	text-decoration: none;
+	color: #FC8546;
+}
+
+h1{
+	font-size: 120px;
+	color: #37508E;
+	padding-left: 80px;
+	width: 1000px;
+	font-family: mencken-std, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	
+}
+
+
+/*landing page and intro*/
+
+.main{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";	
+	background-color:#94b47b;
+	height: 2100px;
+}
+
+.parallax{
+	background-position: 0%;
+	bachground-size: cover;
+	background-image: url("images/startpage.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.parallax-inner{
+	padding-top: 3%;
+	padding-bottom:22%;	
+	
+}
+
+h2{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 130px;
+	margin-bottom: 50px;
+	font-size: 50px;
+	text-align: center;	
+}
+
+#container{
+	width:80vw;
+	padding-left:80px;
+}
+
+article{
+	font-family: stratos, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	
+}
+
+img{
+	float: right;
+}
+
+/**/
+
+.main2{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	height: 900px;
+	background-color: #dee3f2;
+}
+
+.parallax2{
+    background-position: 0%;
+    bachground-size: cover;
+    background-image: url(images/2ndimg.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-inner2{
+	padding-top: 3%;
+	padding-bottom:22%;	
+	
+}
+
+#container2{
+    width: 80vw;
+    margin:auto;
+    text-align: center;
+}
+
+
+
+
+.main3{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    height: 1500px;
+	background-color: #dee3f2;
+}
+
+.parallax3{
+    background-position: 0%;
+    bachground-size: cover;
+    background-image: url(images/tibet.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallax-inner3{
+	padding-top: 3%;
+	padding-bottom:22%;	
+}
+
+#container3{
+	
+    width: 80vw;
+    margin:auto;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    border-color: #37508E;
+	font-family: stratos, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+
+
+.main4{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    height: 1000px;
+	background-color:#94b47b;
+}
+
+.parallax4{
+    background-position: 0%;
+    bachground-size: cover;
+    background-image: url(images/yangtze.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+
+.parallax-inner4{
+	padding-top: 3%;
+	padding-bottom:22%;	
+}
+
+#container4{
+    width: 80vw;
+    margin:auto;
+    text-align: center;
+}
+
+
+.main6{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	height: 1300px;
+	background-color: #dee3f2;
+}
+
+.parallax6{
+    background-position: 0%;
+    bachground-size: cover;
+    background-image: url(images/melting.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-inner6{
+	padding-top: 3%;
+	padding-bottom:22%;	
+	
+}
+
+#container6{
+    width: 80vw;
+    margin:auto;
+    text-align: center;
+}
+
+
+.main5{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	height: 1000px;
+	background-color: #dee3f2;
+}
+
+.parallax5{
+    background-position: 0%;
+    bachground-size: cover;
+    background-image: url(images/glacier.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-inner5{
+	padding-top: 3%;
+	padding-bottom:22%;		
+}
+
+#container5{
+    width: 80vw;
+    margin:auto;
+    text-align: center;
+}
+
+video{
+    width: 600px;
+}
+
+
+
